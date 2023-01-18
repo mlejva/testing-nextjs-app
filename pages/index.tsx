@@ -12,6 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className="p-4 bg-green-500">
+          Tailwind!
+        </div>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
